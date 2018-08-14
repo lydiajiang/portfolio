@@ -1,0 +1,19 @@
+
+/* Content */
+/* ========================================================================== */
+
+.main {width: 900px; margin: auto;}
+
+.introduction {margin: 8.0rem 0 0;}
+  .introduction p {font-size: 2.0rem; line-height: 3.4rem;}
+
+.work {margin: 16.0rem 0 0;}
+  .work_row {display: flex; flex-direction: row; margin: 4.8rem 0;}
+    .work_piece {width: 50%; text-align: center;}
+      .work_piece:first-child {margin-right: 3.2rem;}
+      .work_piece:last-child {margin-left: 3.2rem;}
+      a.work_title, a.work_image {display: block;}
+      a.work_title, .work_description {font-size: 1.6rem;}
+        a.work_title {font-weight: 500; margin-top: 1.6rem;}
+        a.work_image img {width: 100%;}
+          a.work_image:hover {opacity: 0.7; transition: opacity 0.4s;}
