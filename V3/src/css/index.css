@@ -2,8 +2,6 @@
 /* Content */
 /* ========================================================================== */
 
-.main {width: 900px; margin: auto;}
-
 .introduction {margin: 8.0rem 0 0;}
   .introduction p {font-size: 2.0rem; line-height: 3.4rem;}
 
@@ -17,3 +15,8 @@
         a.work_title {font-weight: 500; margin-top: 1.6rem;}
         a.work_image img {width: 100%;}
           a.work_image:hover {opacity: 0.7; transition: opacity 0.4s;}
+
+
+/* Main */
+/* ========================================================================== */
+.main {width: 900px; margin: auto;}

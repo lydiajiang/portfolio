@@ -1,0 +1,38 @@
+
+/* AVA */
+/* ========================================================================== */
+
+.project_summary p {font-size: 2.2rem; line-height: 3.4rem;}
+
+
+/* Main */
+/* ========================================================================== */
+.main {width: 100.0rem; margin: auto; padding-bottom: 6.4rem;}
+  .row {padding: 3.2rem 0;}
+
+/* Introduction */
+/* ========================================================================== */
+
+.introduction {display: flex; padding: 5.6rem 0 4.8rem 0;}
+  .introduction_text {}
+    .summary_description {padding: 0 0 1.6rem;}
+    .project_summary-role-container {padding: 2.4rem 0;}
+      div.project_summary-role {font-size: 2.0rem; font-weight: 500; font-family: Graphik, Helvetica, Arial, sans-serif;}
+      p.project_summary-role {font-size: 2.0rem; line-height: 0rem;}
+  .introduction_image {}
+    .introduction_image img {width: 100%;}
+
+
+/* Body Text Styles */
+/* ========================================================================== */
+h2.project_template {font-family: Graphik, Helvetica, Arial, sans-serif; font-size: 3.2rem; font-weight: 500;}
+h3.project_template {font-family: Graphik, Helvetica, Arial, sans-serif; font-size: 2.0rem; font-weight: 500;}
+p.project_template {font-size: 2.0rem; line-height: 3.4rem;}
+p.project_template-list {font-size: 1.8rem; line-height: 2.4rem;}
+a.project_template {font-weight: 500; color: #00729D;}
+  a.project_template:hover {color: #005B7D;}
+p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
+
+.ava_image {padding: 1.6rem 0;}
+  .ava_image img {width: 100%;}
+
