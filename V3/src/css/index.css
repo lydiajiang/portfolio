@@ -12,6 +12,7 @@
       .work_piece:last-child {margin-left: 3.2rem;}
       a.work_title, a.work_image {display: block;}
       a.work_title, .work_description {font-size: 1.6rem;}
+        .work_description {margin: 0.8rem 0 1.6rem 0;}
         a.work_title {font-weight: 500; margin-top: 1.6rem;}
         a.work_image img {width: 100%;}
           a.work_image:hover {opacity: 0.7; transition: opacity 0.4s;}
@@ -19,4 +20,22 @@
 
 /* Main */
 /* ========================================================================== */
-.main {width: 900px; margin: auto;}
+.main {width: 900px; margin: auto; padding: 0 0 4.8rem 0;}
+
+
+@media screen and (max-width: 1180px) {
+  .main {width: 80%;}
+}
+
+@media screen and (max-width: 600px) {
+  .work_row {display: block; margin: 0;}
+    .work_piece {width: 100%; margin: 0 0 7.2rem 0;}
+      .work_piece:last-child {margin-left: 0;}
+
+  h1 {font-size: 3.2rem;}
+  .introduction p {font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 450px) {
+  a.work_title, p.work_description {font-size: 1.4rem;}
+}

@@ -10,6 +10,7 @@
 .main {width: 100.0rem; margin: auto; padding-bottom: 6.4rem;}
   .row {padding: 3.2rem 0;}
 
+
 /* Introduction */
 /* ========================================================================== */
 
@@ -18,10 +19,9 @@
     .summary_description {padding: 0 0 1.6rem;}
     .project_summary-role-container {padding: 2.4rem 0;}
       div.project_summary-role {font-size: 2.0rem; font-weight: 500; font-family: Graphik, Helvetica, Arial, sans-serif;}
-      p.project_summary-role {font-size: 2.0rem; line-height: 0rem;}
+      p.project_summary-role {font-size: 2.0rem; line-height: 2.2rem;}
   .introduction_image {}
     .introduction_image img {width: 100%;}
-
 
 /* Body Text Styles */
 /* ========================================================================== */
@@ -36,3 +36,22 @@ p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
 .ava_image {padding: 1.6rem 0;}
   .ava_image img {width: 100%;}
 
+
+@media screen and (max-width: 1180px) {
+  .main {width: 80%;}
+}
+
+@media screen and (max-width: 900px) {
+  h1 {font-size: 3.2rem;}
+    .project_summary p {font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 600px) {
+  .main {width: 80%;}
+    .introduction {flex-direction: column-reverse;}
+      .introduction_image {padding-bottom: 3.2rem;}
+    h1 {font-size: 3.2rem;}
+      .project_summary p, p.project_template {font-size: 1.8rem;}
+      p.caption {font-size: 1.3rem;}
+      p.project_template-list {font-size: 1.4rem;}
+}

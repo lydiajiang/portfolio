@@ -37,3 +37,14 @@ html, body {margin: 0; padding: 0; font-family: Roboto, sans-serif; font-weight:
 a.text_link {font-weight: 500; color: #00729D;}
   a.text_link:hover {color: #005B7D;}
 
+@media screen and (max-width: 1180px) {
+  .navigation {width: 80%; margin: auto; padding: 3.2rem 0;}
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {margin: auto; text-align: center;}
+    a.logo {display: none;}
+    .menu {display: flex; flex-direction: row; width: 80%; margin: auto; font-size: 1.4rem;}
+      .menu_options {padding: 0; flex: 1; font-size: 1.8rem;}
+}
+
