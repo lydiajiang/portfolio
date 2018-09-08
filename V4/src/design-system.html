@@ -20,17 +20,21 @@
 <body>
 
 <div class="navigation">
-  <a class="logo" href="index.html"><img src="img/index/logo.svg"></a>
-  <div class="menu">
-    <a href="index.html" class="menu_options">work</a>
-    <a href="about.html" class="menu_options">about</a>
-    <a href="contact.html" class="menu_options">contact</a>
+  <div class="navigation_wrapper">
+    <a class="nav_title" href="index.html">LYDIA JIANG<span class="nav_title-role"><span class="circle"></span>Product Designer</span></a>
+    <div class="nav_title_small">LYDIA JIANG</div>
+    <div class="nav_menu">
+      <a class="menu_options menu_options-selected" href="index.html">WORK</a>
+      <a class="menu_options" href="about.html">ABOUT</a>
+    </div>
   </div>
 </div>
 
 <main class="main">
   <section class="introduction">
-    <div class="introduction_text">
+    <div class="introduction_image"><img src="img/designsystem/designsystem_intro-graphic.jpg" alt="screenshot of AVA"></div>
+
+    <div class="introduction_text reading_margin">
       <h1>Design System</h1>
 
       <div class="project_summary">
@@ -41,16 +45,11 @@
           <p class="project_summary-role">Principal Product Designer</p>
         </div>
 
-        <div class="project_summary-role-container">
-          <div class="project_summary-role">Company</div>
-          <p class="project_summary-role">Asurion</p>
-        </div>
       </div>
     </div>
-
-    <div class="introduction_image"><img src="img/designsystem/designsystem_intro-graphic.jpg" alt="screenshot of AVA"></div>
   </section>
 
+<div class="reading_margin">
   <div class="row">
     <h2 class="project_template">About the Project</h2>
     <p class="project_template">AVA is machine-learning chatbot that files claims and answers questions for more than 53k customers/month. The web app faced a crucial period of growth after its initial release, but faced a myriad of design problems. The MVP design was <b>inconsistent</b> and <b>unpleasant</b> to the new influx of users, causing problems in the app's performance and reputation.</p>
@@ -111,7 +110,7 @@
     <h2 class="project_template">Next Steps</h2>
     <p class="project_template"><p class="project_template">From a design perspective, the next steps for the team are to iteratively make the app <b>meet AA accessibility standards</b>, improve our CX metrics, and meet industry standards around design. From an <b>engineering perspective</b>, our goal is to begin abstracting parts of the UI into a maintainable pattern library.</p>
   </div>
-
+</div>
 
 </main>
 

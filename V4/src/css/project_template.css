@@ -1,44 +1,45 @@
 
-/* AVA */
-/* ========================================================================== */
-
-.project_summary p {font-size: 2.2rem; line-height: 3.4rem;}
-
-
 /* Main */
 /* ========================================================================== */
-.main {width: 100.0rem; margin: auto; padding-bottom: 6.4rem;}
+.main {margin: auto; padding-bottom: 6.4rem;}
   .row {padding: 3.2rem 0;}
+
+.reading_margin {width:90.0rem; margin: auto;}
 
 
 /* Introduction */
 /* ========================================================================== */
 
-.introduction {display: flex; padding: 5.6rem 0 4.8rem 0;}
+.introduction {padding: 5.6rem 0 4.8rem 0; border-bottom: 1px solid #E3E3E3; text-align: center;}
   .introduction_text {}
-    .summary_description {padding: 0 0 1.6rem;}
-    .project_summary-role-container {padding: 2.4rem 0;}
-      div.project_summary-role {font-size: 2.0rem; font-weight: 500; font-family: Graphik, Helvetica, Arial, sans-serif;}
-      p.project_summary-role {font-size: 2.0rem; line-height: 2.2rem;}
-  .introduction_image {}
-    .introduction_image img {width: 100%;}
+    .summary_description {padding: 0 0 1.6rem; font-family: "Playfair Display", Georgia, sans-serif; color: #46494D; font-size: 2.0rem; line-height: 3.2rem;}
+    .project_summary-role-container {}
+      div.project_summary-role {font-size: 2.0rem; font-family: "Playfair Display", Georgia, sans-serif;}
+      p.project_summary-role {font-size: 1.6rem; font-weight: 300; color: #72757E;}
+  .introduction_image {margin: auto; text-align: center;}
+    .introduction_image img {height: 100%; max-height: 50.0rem;}
 
 /* Body Text Styles */
 /* ========================================================================== */
-h2.project_template {font-family: Graphik, Helvetica, Arial, sans-serif; font-size: 3.2rem; font-weight: 500;}
-h3.project_template {font-family: Graphik, Helvetica, Arial, sans-serif; font-size: 2.0rem; font-weight: 500;}
-p.project_template {font-size: 2.0rem; line-height: 3.4rem;}
+h2.project_template, h3.project_template {font-family: "Playfair Display", Georgia, sans-serif; color: #46494D;}
+  h2.project_template {font-size: 4.4rem;}
+  h3.project_template {font-size: 3.2rem;}
+p.project_template {font-size: 2.0rem; line-height: 3.2rem; color: #46494D; padding: 0.8rem 0;}
 p.project_template-list {font-size: 1.8rem; line-height: 2.4rem;}
 a.project_template {font-weight: 500; color: #00729D;}
   a.project_template:hover {color: #005B7D;}
 p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
+
+.excerpt {border: 1px solid #E0E0E0; box-shadow: 0 4px 7px rgba(0,0,0,0.06); border-left: 10px solid #CF4B00; padding: 3.2rem 4.0rem; margin: 7.2rem 0;}
+  .excerpt_subtitle {font-family: "Assistant", sans-serif; font-weight: 600; color: #585D61; font-size: 1.7rem; letter-spacing: 0.02rem; padding: 0 0 2.4rem;}
+  .excerpt_text {font-family: "Playfair Display", Georgia, serif; font-size: 2.4rem; line-height: 4.0rem; padding: 0 0 1.6rem;}
 
 .ava_image {padding: 1.6rem 0;}
   .ava_image img {width: 100%;}
 
 
 @media screen and (max-width: 1180px) {
-  .main {width: 80%;}
+  .reading_margin {width: 80%;}
 }
 
 @media screen and (max-width: 900px) {
@@ -47,7 +48,7 @@ p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
 }
 
 @media screen and (max-width: 600px) {
-  .main {width: 80%;}
+  .reading_margin {width: 80%;}
     .introduction {flex-direction: column-reverse;}
       .introduction_image {padding-bottom: 3.2rem;}
     h1 {font-size: 3.2rem;}
