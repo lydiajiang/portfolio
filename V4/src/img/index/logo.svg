@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-64.000000, -44.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(64.000000, 44.000000)">
+                <path d="M0,0 L50,0 C63.8071187,-2.53632657e-15 75,11.1928813 75,25 L75,75 L0,75 L0,0 Z" id="Rectangle" fill="#1FC2A5"></path>
+                <polyline id="Path-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="32.7474413 52.4853988 53.8249814 52.4853988 58.9510679 61.9652654 28.1311348 61.9652654 28.1311348 52.4853988 28.1311348 16.3101294 18 10 18 52.4853988 22.062356 52.4853988"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

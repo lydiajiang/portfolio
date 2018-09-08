@@ -1,0 +1,44 @@
+
+/* Content */
+/* ========================================================================== */
+
+.introduction {margin: 10.4rem 0 0; text-align: center;}
+  p.introduction_text {font-family: "Playfair Display", Georgia, serif; font-size: 2.4rem; line-height: 3.2rem; color: #46494D;}
+  a.introduction_subtitle {font-family: Assistant, Helvetica, sans-serif; font-weight: 300; font-size: 1.6rem; color: #61676B;}
+
+.work {margin: 16.0rem 0 0;}
+  .work_row {display: flex; flex-direction: row; margin: 4.8rem 0;}
+    .work_piece {width: 50%; text-align: center;}
+      .work_piece:first-child {margin-right: 3.2rem;}
+      .work_piece:last-child {margin-left: 3.2rem;}
+      a.work_image {display: block;}
+    .work_text {text-align: center; padding: 3.2rem 0 0 0;}
+      a.work_title {font-family: Assistant, Helvetica, sans-serif; border-bottom: 4px solid rgba(232, 87, 0, 0.16); width: fit-content; font-size: 2.4rem; font-weight: 600; color: #46494D; letter-spacing: 0.05rem; margin: 1.6rem 0 0;}
+        .work_description {font-family: "Playfair Display", Georgia, serif; margin: 1.6rem 0 1.6rem 0; font-size: 1.8rem; letter-spacing: 0.02rem;
+          line-height: 2.8rem;}
+        a.work_image {border: 1px solid #E0E0E0; box-shadow: 0px 4px 7px rgba(0,0,0,0.06);}
+        a.work_image img {width: 100%;}
+          a.work_image:hover {opacity: 0.7; position: relative; top: -0.2rem; transition: all 0.4s;}
+
+
+/* Main */
+/* ========================================================================== */
+.main {width: 900px; margin: auto; padding: 0 0 4.8rem 0;}
+
+
+@media screen and (max-width: 1180px) {
+  .main {width: 80%;}
+}
+
+@media screen and (max-width: 600px) {
+  .work_row {display: block; margin: 0;}
+    .work_piece {width: 100%; margin: 0 0 7.2rem 0;}
+      .work_piece:last-child {margin-left: 0;}
+
+  h1 {font-size: 3.2rem;}
+  .introduction p {font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 450px) {
+  a.work_title, p.work_description {font-size: 1.4rem;}
+}
