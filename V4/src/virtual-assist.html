@@ -38,7 +38,7 @@
       <h1>Virtual Assist</h1>
 
       <div class="project_summary">
-        <p class="summary_description">I designed Virtual Assist, which enables repair facilities and customers to video chat with their insurance companies.</p>
+        <p class="summary_description">I designed Virtual Assist, which enables repair facilities and customers to <span class="color_highlight">video chat</span> with their insurance companies.</p>
 
         <div class="project_summary-role-container">
           <p class="project_summary-role">Product Designer <span class="circle"></span>Allstate</p>
@@ -49,69 +49,79 @@
 
   <div class="reading_margin">
   <div class="row">
-    <h2 class="project_template">About the Product</h2>
-    <p class="project_template">This Agile XP product allows consumers and repair facilities to place a video call to an insurance adjuster, allowing insurance companies to virtually resolve claims. I designed the product’s <b>iOS and Android app</b> for repair facilities and mitigation vendors, a <b>mobile web app</b> for customers, and a <b>desktop web app</b> for auto adjusters, property adjusters, and their leadership.</p>
-    <p class="project_template">The success of the product’s MVP release prompted Allstate to <b>re-structure its location and employee strategy</b> - the company opened operating centers nationwide, in which adjusters would be staffed to handle Virtual Assist calls. In one year, Virtual Assist went from handling 0% of Allstate’s millions of supplemental estimates to more than 70% nationwide.</p>
+    <h2 class="project_template">Executive Summary</h2>
+    <p class="project_template">I was the <b>lead product designer</b> on Virtual Assist, a product which connects repair facilities and consumers with their insurance companies through video chat. Like many insurance companies, Allstate has a complicated <b>claims process</b>; when customers file an auto or property claim, insurance companies will inspect the car or house and <b>estimate</b> the cost of repair. <b>Estimating</b> is a large part of many of these companies’ claims processes, and it largely occurs by sending a company employee to physically visit the damaged asset.</p>
 
-    <br><br><br>
+    <p class="project_template">Estimating is a <b>labor-intensive, time-consuming, and expensive</b> process for these insurance companies, and a painful experience for their customers who have to wait or experience multiple visits by estimators. Virtual Assist was Allstate’s experimental solution to these problems, by providing a virtual way to estimate assets.</p>
+
+    <p class="project_template">I was the product designer chosen to work on this product, due to being <b>full-stack</b> - having research, testing, UX/UI design, and front-end skills. I became a manager and senior product designer based on the success of this product.</p>
 
     <h3 class="project_template">Major Outcomes</h3>
-    <p class="project_template-list">Released MVP after <b>6 months</b> of design and development time</p>
-    <p class="project_template-list">Used to handle <b>70%+</b> of Allstate's supplemental estimates nationwide</p>
-    <p class="project_template-list">Cut a 1 week process down to <b>46 minutes</b></p>
-    <p class="project_template-list"><b>11,000+</b> repair facilities used app in less than 1 year (Feb 2018)</p>
-    <p class="project_template-list"><b>6 operating centers</b> opened nationwide to handle VA calls</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/majoroutcomes.jpg" alt="major outcomes for Virtual Assist"></div>
+
+    <p class="project_template">Virtual Assist took <b>6 months</b> of design and development to push an MVP to production. The MVP consisted of a native iOS app (for repair facilities) and a desktop web app (for Allstate employees to answer calls). When it was first released, only a few repair facilities in the state of Illinois were calling in to two Allstate employees. After a year in production and constant iteration, Virtual Assist had more than <b>11,000 repair facilities</b>   calling in to hundreds of Allstate employees.</p>
+
+    <p class="project_template">The product was later expanded to include a native <b>Android app</b> and mobile React/Java web app. Allstate’s old estimating process took, on average, a full week to complete. Using Virtual Assist, the estimating process takes an <b>average of 45 minutes</b> to complete. Based on its successful results, Allstate restructured its location and hiring process around Virtual Assist, opening 6 operating <centers></centers> nationwide to answer and monitor calls.</p>
+
+    <h4 class="project_template">Other Outcomes</h4>
+
+    <p class="project_template-list">- <b>6 operating centers</b> were opened nationwide to handle VA calls, changing a major part of Allstate’s strategy</p>
   </div>
 
   <div class="row">
-    <h2 class="project_template">User and Business Problems</h2>
+
+    <h2 class="project_template top_border">Problem Space</h2>
 
     <p class="project_template">The insurance industry’s current claims process is marked by long cycle time, high operational cost, and poor customer experience.</p>
 
-    <p class="project_template">One of its largest problems lies within the estimating sub-process: the estimated cost of repair to a customer’s car or property needs to be approved by an insurance company. This approval often takes a week, in which a paid adjuster is sent to visit the damaged car or property in-person. An auto adjuster may have to visit a damaged car multiple times in-person to approve any supplemental estimates (additional estimates submitted by the repair facility).</p>
-  </div>
+    <p class="project_template">One of its largest problems lies within the <b>estimating sub-process</b>: the estimated cost of repair to a customer’s car or property needs to be approved by an insurance company. This approval often takes a week, in which a paid adjuster is sent to visit the damaged car or property in-person. While a car is being fixed at a repair facility, auto adjusters may have to visit a damaged car multiple times in-person to approve any <b>supplemental estimates</b> (additional estimates submitted by the repair facility after the first, or <b>initial estimate</b>).</p>
 
-  <div class="row">
-    <h2 class="project_template">Solution</h2>
-    <div class="ava_image"><img src="img/virtualassist/va_image-1.jpg" alt="screenshots of the designs"></div>
-    <p class="caption"><b>Iterative Design:</b> The app’s design and feature set iterated together several times. The latest iteration included an onboarding process, which walked repair facilities and mitigation vendors through the process of inputting their information. This information would help connect their call to the correct adjuster. In previous iterations, user information was not saved, which I surfaced as a problem to prioritize in our backlog.</p>
+    <div class="excerpt">
+      <div class="excerpt_subtitle">PRODUCT PROBLEMS</div>
+      <div class="excerpt_text">The current claims process is inefficient, resulting in bad customer experiences, high operational cost for Allstate, and tense relationships with repair facilities (mediator between consumer and insurance).</div>
+    </div>
 
-    <p class="project_template">I was the product designer on an XP product team of one product manager and eight developers. We were tasked to reduce the inefficiencies in the estimating process by Allstate business.</p>
+    <p class="project_template">Over the course of several years, Allstate had tried to explore experimental solutions to this problem - many worked in some aspect (better experience) but failed in another (lowering operational cost). I was part of the product team to explore a more technical solution to the problem.</p>
+
+    <h3 class="project_template">User Research</h3>
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-2.jpg" alt="user research conducted at repair facilities"></div>
+
+    <p class="project_template">Repair facilities and insurance companies share a complex relationship which is rarely surfaced to the customers who bring their cars in - different types of estimates (initial, supplemental, total loss, full) and different types of shops (MSO, mom-and-pop, DRP) all factor into this relationship. I visited <b>25+ repair facilities</b> over the course of the product’s one year development, surfacing their frustrations with having to wait on insurance companies for estimates. This information helped identify different user groups’ pains, prioritize the team’s backlog, and validate/invalidate business requirements and assumptions.</p>
+
+    <p class="project_template">To identify problems in the estimating process, I conducted <b>exploratory research</b> with auto repair facilities (focusing on owners and mechanics), Allstate adjusters, and subject matter experts. I combined user interviews and contextual inquiries in order to identify user problems.</p>
+
+    <p class="project_template">I recorded the sounds, locations, network connections, and lighting of multiple repair facilities to understand if there were risks to relying on video in our app. An MSO (multi-shop organization) facility might be outfitted with tablets and well-lit open floors, while local shops might have cramped, poorly-lit, and loud spaces.</p>
+
+
+    <h3 class="project_template">Solution</h3>
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-1.jpg" alt="screenshots of the designs"></div>
+
+    <p class="project_template">I was the product designer on an XP product team of <b>one product manager</b> and <b>eight developers</b>. We were tasked to reduce the inefficiencies in the estimating process by Allstate business.</p>
 
     <p class="project_template">Our product team’s MVP was an iOS mobile app for auto repair facilities, allowing them to place a video call to a queue of Allstate auto adjusters (who answered from our desktop application). I later designed the Android mobile app and mobile web app with the same feature set, which was released while the team refactored the desktop and iOS application.</p>
-  </div>
 
-  <div class="row">
-    <h2 class="project_template">User Research</h2>
-    <div class="ava_image"><img src="img/virtualassist/va_image-2.jpg" alt="user research conducted at repair facilities"></div>
-    <p class="caption"><b>Exploring the Problem Space:</b> I recorded the sounds, locations, network connections, and lighting of multiple repair facilities to understand if there were risks to relying on video in our app. An MSO (multi-shop organization) facility might be outfitted with tablets and well-lit open floors, while local shops might have cramped, poorly-lit, and loud spaces.</p>
+    <p class="project_template">The app’s design and feature set <b>iterated together several times</b>. The latest iteration included an onboarding process, which walked repair facilities and mitigation vendors through the process of inputting their information. This information would help connect their call to the correct adjuster. In previous iterations, user information was not saved, which I surfaced as a problem to prioritize in our backlog.</p>
 
-    <p class="project_template">To identify problems in the estimating process, I conducted exploratory research with auto repair facilities (focusing on owners and mechanics) and Allstate adjusters. I combined user interviews and contextual inquiries in order to identify user problems.</p>
 
-    <p class="project_template">Repair facilities and insurance companies share a complex relationship which is rarely surfaced to the customers who bring their cars in - different types of estimates (initial, supplemental, total loss, full) and different types of shops (MSO, mom-and-pop, DRP) all factor into this relationship. I visited 25+ repair facilities over the course of the product’s one year development, surfacing their frustrations with having to wait on insurance companies for estimates. This information helped identify different user groups’ pains, prioritize the team’s backlog, and validate/invalidate business requirements and assumptions.</p>
-  </div>
+    <h3 class="project_template">User Testing</h3>
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-4.jpg" alt="user research conducted at repair facilities"></div>
+    <p class="caption"><b>Testing Prototypes and the Production App:</b> Running user tests always generated unexpected results. I observed users opting to use tablets instead of mobile phones, or using the video feature to discuss paper invoices instead of sending an email. Each round of testing resulted in iterations in the product’s design.</p>
 
-  <div class="row">
-    <h2 class="project_template">Design</h2>
-    <div class="ava_image"><img src="img/virtualassist/va_image-3.jpg" alt="user research conducted at repair facilities"></div>
-    <p class="caption"><b>Exploring the Problem Space:</b> I recorded the sounds, locations, network connections, and lighting of multiple repair facilities to understand if there were risks to relying on video in our app. An MSO (multi-shop organization) facility might be outfitted with tablets and well-lit open floors, while local shops might have cramped, poorly-lit, and loud spaces.</p>
+    <p class="project_template">User testing was crucial to my design process. New features were prototyped and tested before being developed. I consistently tested our UAT environments before features were pushed into production, and I observed our app in production in the actual context of use after major releases.</p>
 
-    <p class="project_template">I drove the design for the product’s iOS, Android, and desktop web app. One of the major goals of this product was to provide a white-label service, where Allstate would be only the first company of many to be connected to consumers and repair facilities. I had been provided a white-label style guide to work off of instead of the Allstate HIG, but this style guide was not actively maintained (for example, it utilized a gradient which had not been tested for accessibility).</p>
+    <p class="project_template">One of the most challenging aspects of the product’s design was <b>balancing design debt</b> with immediate user value. As a team, we had chosen to focus on designing for the user and business problems which we could solve in the next few months - not the next year. This mindset, while it drove the product’s success, also lent itself heavily to design debt. User testing was able to inform when and why we should focus on long-term or short-term solutioning; as the product was iteratively designed and then released, I conducted regular user observations and user tests over the course of six months. Whenever I brought back poor usability as a finding of testing/observation for a short-term solution, the team knew a longer-term solution was the better path.</p>
 
-    <p class="project_template">I established with the team that our design goals were to maximize usability and functionality to the user. I iterated on the design, flow, and feel of the apps over time. The gradient was removed for a flat color which met AA accessibility. While much of the flow and layout of the Android and iOS versions remained identical to each other, I opted to make as many elements as native to each OS as possible.</p>
-  </div>
 
-  <div class="row">
-    <h2 class="project_template">User Testing</h2>
-    <div class="ava_image"><img src="img/virtualassist/va_image-5.jpg" alt="pairing with developers and product managers"></div>
+    <h3 class="project_template">Front-End Development and Product Strategy</h3>
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-5.jpg" alt="pairing with developers and product managers"></div>
     <p class="caption"><b>From Left to Right:</b> (1) I pair with the devs to check the quality of the design’s implementation; (2) User research (displayed on back wall) is discussed during product milestones (re-inceptions, re-scopings), and (3) I facilitated “design studios”, where all team members, regardless of design background, generate design ideas to solve a product problem.</p>
 
     <p class="project_template"><b>Front-End Development:</b> I regularly paired with the XP full-stack developers to understand technical limitations and unblock front-end stories, while coaching them in SASS and CSS. Understanding the basics of our codebase helped me prioritize the backlog when I paired with the PM, as well as identify design bugs in the production software. By pairing with the devs regularly, I was able to initiate other XP product teams to move towards using CSS compilers, recommending SASS as the industry standard.</p>
 
-    <p class="project_template"><b>Stakeholder Management:</b> I became the representative for product design in the claims space, regularly demoing the product to stakeholders and potential clients with the PM and dev anchor. I became an architect for Virtual Assist’s future, which transitioned into architecting the claims space’s overall strategy. I was also a facilitator of the difficult discussions of its future (re-inceptions, scopings, iteration decisions, and kickoffs), where I recommended evolving our approach to user research to become more quantitative.</p>
-  </div>
+    <p class="project_template"><b>Product Strategy:</b> I became the representative for product design in the claims space, regularly demoing the product to stakeholders and potential clients with the PM and dev anchor. I became an architect for Virtual Assist’s future, which transitioned into architecting the claims space’s overall strategy. I was also a facilitator of the difficult discussions of its future (re-inceptions, scopings, iteration decisions, and kickoffs), where I recommended evolving our approach to user research to become more quantitative.</p>
 
-  <div class="row">
+
     <h2 class="project_template">Next Steps</h2>
 
     <p class="project_template">I was rolled off the team to spearhead the <a class="project_template" href="photo-intake.html">Photo Intake effort</a>. When I rolled off, I identified the following next steps for the product and its design:</p>

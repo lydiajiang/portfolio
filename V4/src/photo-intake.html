@@ -38,7 +38,7 @@
       <h1>Photo Intake</h1>
 
       <div class="project_summary">
-        <p class="summary_description">Photo Intake allows insurance policyholders to take and send photos of their damaged assets without leaving their browser.</p>
+        <p class="summary_description">Photo Intake allows insurance policyholders to take and send <span class="color_highlight">photos</span> of their damaged assets <span class="color_highlight">without leaving their browser</span>.</p>
 
         <div class="project_summary-role-container">
           <p class="project_summary-role">Senior Product Designer <span class="circle"></span>Allstate</p>
@@ -53,35 +53,29 @@
     <p class="project_template">This Agile XP product is a white-label web app which allows insurance companies to send their customers to a custom URL, where they are able to take photos of their damaged assets (such as cars or properties). The mobile web app uses webRTC to embed a device’s native camera stream in the web browser, enabling customers to take whatever photos their company requested without having to download an app.</p>
     <p class="project_template">I was rolled onto Photo Intake to guide the product team from inception to MVP.</p>
 
-    <br><br><br>
-
     <h3 class="project_template">Major Outcomes</h3>
     <p class="project_template-list">Released MVP after <b>4 months</b> of design and development time</p>
     <p class="project_template-list">MVP release to <b>12 states</b>, post-MVP release to <b>48 states</b></p>
     <p class="project_template-list">Reduced claims process to <b>4.3 hours</b> from 4 days after 8 months in development</p>
-  </div>
 
-  <div class="row">
     <h2 class="project_template">User and Business Problems</h2>
 
     <p class="project_template">When handling claims, insurance companies inspect the damage to their customers’ assets to estimate the cost of repair. Allstate’s primary method of inspecting customers’ damage was either to visit it in-person, or have the customer submit their own photos through a waterfall-developed mobile app. This mobile app only handled Allstate auto claims, and suffered from a myriad of problems. A major problem was that users were unable to tell what kind of photos Allstate needed in order to estimate their damage, causing the adjusters who received the photos to re-contact the customer.</p>
 
     <p class="project_template">There were business and technical problems, as well - due to the mobile app’s waterfall release schedule, it was unable to be iterated on quickly, and could not be repurposed for non-Allstate claimants, Allstate property claims, or for Encompass, an Allstate subsidiary which had no tools besides emails, phone calls, and in-person visits to inspect damage. This manual process was inefficient and painful for customers, insurance adjusters, and Allstate business.</p>
-  </div>
 
-  <div class="row">
-    <h2 class="project_template">Solution</h2>
-    <div class="ava_image"><img src="img/photointake/rpi_image-1.jpg" alt="screenshots of the designs"></div>
+
+    <h3 class="project_template">Solution</h3>
+    <div class="ava_image-small"><img src="img/photointake/rpi_image-1.jpg" alt="screenshots of the designs"></div>
     <p class="caption"><b>White-Label Design:</b> Unfortunately, I am not able to share much about the design of the guided photo capture, which is the heart of the app. The overall design of the app was non-Allstate, possessing a generic personality which could be easily re-branded by any company or Allstate line of business which wanted to use it.</p>
 
     <p class="project_template">I was the product designer on the XP product team of two product managers and eight developers.</p>
 
     <p class="project_template">Our product team’s MVP was a mobile web app which embeds a device’s native camera onto a web page. This allows users to capture photos without having to leave their browser. This pivotal feature depended on the capabilities of webRTC - 4 months before MVP, it was unknown whether or not webRTC was going to work on iOS 11, which was not released yet. We knew that any iPhone with the operating system below iOS 11 would not be able to use webRTC. The goal of our MVP was to test if there was a solution which was not wholly dependent on webRTC, mitigating the risk of half of our users being unable to take the correct photos.</p>
-  </div>
 
-  <div class="row">
-    <h2 class="project_template">My Role</h2>
-    <div class="ava_image"><img src="img/photointake/rpi_image-2.jpg" alt="user research conducted at repair facilities"></div>
+
+    <h3 class="project_template">My Role</h3>
+    <div class="ava_image-small"><img src="img/photointake/rpi_image-2.jpg" alt="user research conducted at repair facilities"></div>
     <p class="caption"><b>User Research:</b> To identify problems in the current app and estimating process, I conducted exploratory research with Allstate adjusters who handled claims and customers who had recently filed an auto claim. I combined user interviews, contextual inquiries, and lean experimentation in order to identify (1) user pains with the claims process, (2) the kind of information, especially in terms of photos, which adjusters need from customers when handling claims, and (3) the technical risks of possible implementations of our app, including using webRTC.</p>
 
     <p class="project_template"><b>Design and User Testing:</b> I focused on testing two assumptions which, without being validated, posed an enormous amount of risk to the success of our app: (1) that customers could be guided to take the correct photos that adjusters need, and (2) that they could be guided in a manner which did not rely on webRTC. I recruited real customers to take photos of real damaged cars in these tests, assessing not only the usability of the prototyped app, but its ability to guide the customer to take the correct photos.</p>
@@ -89,19 +83,8 @@
     <p class="project_template"><b>Front-End Development:</b> I regularly paired with the XP full-stack developers and architects of the product in order to maintain the flow of information between technical possibilities and design. We were experimenting with the possibilities of a mobile web app, and these possibilities (and limitations) informed the design and backlog priority immensely. Pairing was essential to understanding what could be built and tested in a few months’ time, and what could be delivered iteratively in half a year’s time.</p>
 
     <p class="project_template"><b>Stakeholder Management:</b> I was heavily involved in driving the product’s scope and feature prioritization. I was a facilitator of its major stages (re-inceptions, scopings, iteration decisions, and kickoffs) and was tasked with keeping the business, design, and development areas aligned and informed.</p>
-  </div>
 
-  <div class="row">
-    <h2 class="project_template">User Testing</h2>
-    <div class="ava_image"><img src="img/virtualassist/va_image-4.jpg" alt="user research conducted at repair facilities"></div>
-    <p class="caption"><b>Testing Prototypes and the Production App:</b> Running user tests always generated unexpected results. I observed users opting to use tablets instead of mobile phones, or using the video feature to discuss paper invoices instead of sending an email. Each round of testing resulted in iterations in the product’s design.</p>
 
-    <p class="project_template">User testing was crucial to my design process. New features were prototyped and tested before being developed. I consistently tested our UAT environments before features were pushed into production, and I observed our app in production in the actual context of use after major releases.</p>
-
-    <p class="project_template">One of the most challenging aspects of the product’s design was balancing design debt with immediate user value. As a team, we had chosen to focus on designing for the user and business problems which we could solve in the next few months - not the next year. This mindset, while it drove the product’s success, also lent itself heavily to design debt. User testing was able to inform when and why we should focus on long-term or short-term solutioning; as the product was iteratively designed and then released, I conducted regular user observations and user tests over the course of six months. Whenever I brought back poor usability as a finding of testing/observation for a short-term solution, the team knew a longer-term solution was the better path.</p>
-  </div>
-
-  <div class="row">
     <h2 class="project_template">Next Steps</h2>
 
     <p class="project_template">I was rolled off the product to architect other claims solutions, and two product designers were transitioned on in my place. I managed both designers directly. I identified the next steps for them and the team to tackle:</p>
