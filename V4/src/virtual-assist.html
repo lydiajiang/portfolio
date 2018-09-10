@@ -84,35 +84,79 @@
 
     <p class="project_template">Over the course of several years, Allstate had tried to explore experimental solutions to this problem - many worked in some aspect (better experience) but failed in another (lowering operational cost). I was part of the product team to explore a more technical solution to the problem.</p>
 
-    <h3 class="project_template">User Research</h3>
+    <h3 class="project_template">Discovery and Research</h3>
+
+    <p class="project_template">Allstate had an idea that they wanted to focus on solving auto estimating first, with the solution being tech-based.</p>
+
+    <p class="project_template">An Agile XP product team was created, with <b>one product manager</b>, <b>eight developers</b>, and <b>one product designer (myself)</b>. We were tasked to reduce the inefficiencies in the estimating process by the Allstate business.</p>
+
+    <p class="project_template">However, the team didn’t feel confident in designing any solution until we understood the <b>priority of the problems</b> we were being asked to solve. We also wanted to validate low fidelity solutions with real users before we invested in development.</p>
+
+    <p class="project_template">From a business perspective, auto and property were the two major areas where the estimating process took place, so we interviewed both Allstate auto and property adjusters.</p>
+
+    <p class="project_template">We chose to focus heavily on auto for MVP. Auto far outweighed property in terms of its volume of estimates and operational cost. To identify and validate problems in the auto space, myself and the team conducted <b>exploratory research</b> with auto repair facilities (focusing on owners and mechanics), Allstate adjusters, and subject matter experts. I combined user interviews and contextual inquiries in order to identify user problems.</p>
+
+
+    <h3 class="project_template">A Complex System</h3>
+
+    <p class="project_template">Repair facilities and insurance companies share a complex relationship which is rarely surfaced to the customers who bring their cars in. There are several different types of auto estimates (initial, supplemental, total loss, full) and different types of shops (MSO, mom-and-pop, DRP). Each type of repair facility and estimate interacts and affects this relationship.</p>
+
+    <p class="project_template">I visited <b>25+ repair facilities</b> and interviewed <b>10+ auto adjusters</b> over the course of the product’s one year development to document this process. I surfaced frustrations from each side while gaining context in this highly specialized space. This information helped identify different user groups’ pains, prioritize the team’s backlog, and validate/invalidate business requirements and assumptions.</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/image_01.jpg" alt="user research"></div>
+
+    <p class="project_template">The team and myself took turns visiting facilities to record the sounds, locations, network connections, and lighting of multiple repair facilities. We wanted to understand if there were risks to relying on something like photo, video, or wi-fi in our eventual solution. An MSO (multi-shop organization) facility might be outfitted with tablets and well-lit open floors, while local shops might have cramped, poorly-lit, and loud spaces.</p>
+
     <div class="ava_image-small"><img src="img/virtualassist/va_image-2.jpg" alt="user research conducted at repair facilities"></div>
 
-    <p class="project_template">To identify problems in the estimating process, I conducted <b>exploratory research</b> with auto repair facilities (focusing on owners and mechanics), Allstate adjusters, and subject matter experts. I combined user interviews and contextual inquiries in order to identify user problems.</p>
 
-    <p class="project_template">Repair facilities and insurance companies share a complex relationship which is rarely surfaced to the customers who bring their cars in - different types of estimates (initial, supplemental, total loss, full) and different types of shops (MSO, mom-and-pop, DRP) all factor into this relationship. I visited <b>25+ repair facilities</b> over the course of the product’s one year development, surfacing their frustrations with having to wait on insurance companies for estimates. This information helped identify different user groups’ pains, prioritize the team’s backlog, and validate/invalidate business requirements and assumptions.</p>
+    <h3 class="project_template">Design Ideation</h3>
 
-    <div class="ava_image"><img src="img/virtualassist/image_01.jpg" alt="user research"></div>
+    <p class="project_template"><b>Two major problems</b> from both sides (Allstate and repair facilities) stood out to the team. The same problem appeared on both sides: both Allstate and repair facilities felt that the process was painfully long and costly. Both parties felt that this negatively impacted their business and relationships with their customers.</p>
 
-    <p class="project_template">I also recorded the sounds, locations, network connections, and lighting of multiple repair facilities to understand if there were risks to relying on video in our app. An MSO (multi-shop organization) facility might be outfitted with tablets and well-lit open floors, while local shops might have cramped, poorly-lit, and loud spaces.</p>
+    <div class="excerpt">
+      <div class="excerpt_subtitle">TWO MATCHING PROBLEMS</div>
+      <div class="excerpt_text">From both a repair facility and insurance company perspective, the biggest problem with the estimating process is the same: its high inefficiency (unnecessarily time-consuming, costly, and unstructured).</div>
+    </div>
+
+    <p class="project_template">While the problem seemed simple (high inefficiency), the solution was <b>far from simple</b>. It was limited by many key facts discovered during the research phase.</p>
+
+    <p class="project_template">Adjusters and repair facility employees are <b>highly skilled</b> workers, who gain the majority of their skills through on-the-field work. Many adjusters stay in their career for up to twenty years. While mechanics are as skilled as adjusters, they aren’t perfectly matched in skillset. Shop owners and mechanics are more focused on actually repairing the vehicle. Adjusters need specific information that <b>only applies to insurance</b>. They need to know specific facts about the car and need to visually inspect many aspects of it that the mechanic does not know how to anticipate.</p>
+
+    <p class="project_template">Unless the damage is extremely minor, adjusters are rarely able to produce an accurate estimate by just looking at photos of the damaged car. Even if the photos of the car’s exterior are taken perfectly, the adjusters are missing <b>half of the information</b> they need to estimate - they need to see the damage underneath the exterior.</p>
+
+    <p class="project_template">There are also different types of auto adjusters. A specialized adjuster might be one who knows how to estimate motorcycles, is familiar with exotic cars, or understands how to repair for uncommon materials (such as aluminum exteriors).</p>
+
+    <p class="project_template">The team <b>ideated, tested, and iterated</b> on a variety of different ideas that could solve these problems while accounting for these limitations.</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/image_02.jpg" alt="ideation results"></div>
 
 
-    <h3 class="project_template">Solution</h3>
-    <div class="ava_image-small"><img src="img/virtualassist/va_image-1.jpg" alt="screenshots of the designs"></div>
-
-    <p class="project_template">I was the product designer on an XP product team of <b>one product manager</b> and <b>eight developers</b>. We were tasked to reduce the inefficiencies in the estimating process by Allstate business.</p>
-
-    <p class="project_template">Based on our research findings, we ideated as a team on possible solutions to the problems we identified. Through testing, iteration, and scoping, we decided that the MVP feature set would focus on the relationship between repair facilities and Allstate, leaving the customer experience for post-MVP.</p>
-
-    <p class="project_template">Our product team’s MVP was an iOS mobile app for auto repair facilities, allowing them to place a video call to a queue of Allstate auto adjusters (who answered from our desktop application). I later designed the Android mobile app and mobile web app (for consumers) with the same feature set, which was released while the team refactored the desktop and iOS application.</p>
-
-    <p class="project_template">The app’s design and feature set <b>iterated together several times</b>. The latest iteration included an onboarding process, which walked repair facilities and mitigation vendors through the process of inputting their information. This information would help connect their call to the correct adjuster. In previous iterations, user information was not saved, which I surfaced as a problem to prioritize in our backlog.</p>
+    <p class="project_template">We decided that MVP would focus on the relationship between repair facilities, mitigation vendors (the equivalent of repair facilities in property), and Allstate. The first feature set would be based on the fact that repair facilities would place a video call, which would be answered by an on-demand adjuster.</p>
 
 
-    <h3 class="project_template">User Testing</h3>
-    <div class="ava_image-small"><img src="img/virtualassist/va_image-4.jpg" alt="user research conducted at repair facilities"></div>
-    <p class="caption"><b>Testing Prototypes and the Production App:</b> Running user tests always generated unexpected results. I observed users opting to use tablets instead of mobile phones, or using the video feature to discuss paper invoices instead of sending an email. Each round of testing resulted in iterations in the product’s design.</p>
+    <h3 class="project_template">UX/UI Design and User Testing</h3>
+
+    <p class="project_template">The app’s design and feature set <b>iterated together several times</b>, based on changing requirements and user testing.</p>
+
+    <p class="project_template">The first iteration was extremely simple, using Allstate branding and a linear flow to let users place a video call. It was a team decision from all three disciplines to keep the feature set and flow extremely minimal until we understood how users would respond to it.</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/image_03.jpg" alt="the first iteration"></div>
+
+    <p class="project_template">I later designed the <b>Android mobile app</b> and mobile web app (for consumers) with the same feature set, which was released while the team refactored the desktop and iOS application.</p>
+
+    <p class="project_template">The later iterations included a more <b>advanced onboarding process</b>, which walked repair facilities and mitigation vendors through inputting their information. This information would be saved when the user returned to the app, helping connect their call to the correct adjuster. In previous iterations, user information was not saved, which I surfaced as a user pain to prioritize in our backlog.</p>
+
+    <p class="project_template">Allstate colors and logos were removed in order to <b>white-label</b> the product and sell it as a service to others. Other companies, from repair facilities to other insurance companies, had expressed interest in using the app for themselves.</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-3.jpg" alt="the latest iteration"></div>
 
     <p class="project_template">User testing was crucial to my design process. New features were prototyped and tested before being developed. I consistently tested our UAT environments before features were pushed into production, and I observed our app in production in the actual context of use after major releases.</p>
+
+    <div class="ava_image-small"><img src="img/virtualassist/va_image-4.jpg" alt="user research conducted at repair facilities"></div>
+
+    <p class="caption"><b>Testing Prototypes and Observing the App in Prod:</b> Running user tests always generated unexpected results. I observed users opting to use tablets instead of mobile phones, or using the video feature to discuss paper invoices instead of sending an email. Each round of testing resulted in iterations in the product’s design.</p>
+
 
     <p class="project_template">One of the most challenging aspects of the product’s design was <b>balancing design debt</b> with immediate user value. As a team, we had chosen to focus on designing for the user and business problems which we could solve in the next few months - not the next year. This mindset, while it drove the product’s success, also lent itself heavily to design debt. User testing was able to inform when and why we should focus on long-term or short-term solutioning; as the product was iteratively designed and then released, I conducted regular user observations and user tests over the course of six months. Whenever I brought back poor usability as a finding of testing/observation for a short-term solution, the team knew a longer-term solution was the better path.</p>
 

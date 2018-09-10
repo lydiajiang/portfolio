@@ -36,8 +36,8 @@
       <file leaf-file-name="ava.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ava.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="154" column="10" lean-forward="true" selection-start-line="151" selection-start-column="4" selection-end-line="154" selection-end-column="10" />
+            <state relative-caret-position="1591">
+              <caret line="145" column="195" lean-forward="false" selection-start-line="145" selection-start-column="195" selection-end-line="145" selection-end-column="195" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="virtual-assist.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/virtual-assist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="93" column="87" lean-forward="false" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
+            <state relative-caret-position="411">
+              <caret line="147" column="177" lean-forward="false" selection-start-line="147" selection-start-column="177" selection-end-line="147" selection-end-column="182" />
               <folding />
             </state>
           </provider>
@@ -336,12 +336,12 @@
       <workItem from="1534550533655" duration="475000" />
       <workItem from="1534873135086" duration="6636000" />
       <workItem from="1534898317927" duration="6238000" />
-      <workItem from="1536355370929" duration="21251000" />
+      <workItem from="1536355370929" duration="27523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65997000" />
+    <option name="totallyTimeSpent" value="72269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -779,16 +779,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ava.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="154" column="10" lean-forward="true" selection-start-line="151" selection-start-column="4" selection-end-line="154" selection-end-column="10" />
+        <state relative-caret-position="1591">
+          <caret line="145" column="195" lean-forward="false" selection-start-line="145" selection-start-column="195" selection-end-line="145" selection-end-column="195" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/virtual-assist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="93" column="87" lean-forward="false" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
+        <state relative-caret-position="411">
+          <caret line="147" column="177" lean-forward="false" selection-start-line="147" selection-start-column="177" selection-end-line="147" selection-end-column="182" />
           <folding />
         </state>
       </provider>
