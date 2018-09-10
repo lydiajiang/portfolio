@@ -21,11 +21,13 @@
 
 /* Body Text Styles */
 /* ========================================================================== */
-h2.project_template, h3.project_template {font-family: "Playfair Display", Georgia, sans-serif; color: #46494D;}
-  h2.project_template {font-size: 4.4rem;}
-  h3.project_template {font-size: 3.2rem;}
+h2.project_template, h3.project_template, h4.project_template {font-family: "Playfair Display", Georgia, sans-serif; color: #46494D;}
+  h2.project_template {font-size: 4.4rem; padding-top: 8.8rem;}
+    H2.top_border {border-top: 1px solid #E3E3E3;}
+  h3.project_template {font-size: 3.2rem; padding-top: 4.8rem;}
+  h4.project_template {font-size: 2.0rem; padding-top: 3.2rem;}
 p.project_template {font-size: 2.0rem; line-height: 3.2rem; color: #46494D; padding: 0.8rem 0;}
-p.project_template-list {font-size: 1.8rem; line-height: 2.4rem;}
+p.project_template-list {font-size: 2.0rem; line-height: 2.4rem;}
 a.project_template {font-weight: 500; color: #00729D;}
   a.project_template:hover {color: #005B7D;}
 p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
@@ -34,8 +36,9 @@ p.caption {font-size: 1.6rem; line-height: 2.4rem; padding: 0 0 2.4rem 0;}
   .excerpt_subtitle {font-family: "Assistant", sans-serif; font-weight: 600; color: #585D61; font-size: 1.7rem; letter-spacing: 0.02rem; padding: 0 0 2.4rem;}
   .excerpt_text {font-family: "Playfair Display", Georgia, serif; font-size: 2.4rem; line-height: 4.0rem; padding: 0 0 1.6rem;}
 
-.ava_image {padding: 1.6rem 0;}
-  .ava_image img {width: 100%;}
+.ava_image {padding: 7.2rem 0;}
+  .ava_image-small {padding: 1.6rem 0;}
+  .ava_image img, .ava_image-small img {width: 100%;}
 
 
 @media screen and (max-width: 1180px) {
